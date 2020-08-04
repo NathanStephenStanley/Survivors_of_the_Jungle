@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(40, 184, 79);
+    font: bold 15px Arial, Helvitica, sans-serif;
+    overflow: scroll
+}
+#nav-bar {
+    width: 100%;
+    background-color: rgb(7, 148, 87);
+    height: 80px;
+    margin-Top: 0px;
+}
+#nav-bar a {
+    width: 283.5px;
+    height: 60px;
+    float: left;
+    background-color: rgb(7, 148, 87);
+    text-decoration: none;
+    color: white;
+    font: bold 24px Arial;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 1s;
+}
+#nav-bar a:hover {
+    background-color: rgb(3, 252, 102);
+    color: black;
+}
+
+#header {
+    background-color: rgb(3, 252, 115);
+    height: 200px;
+    color: black;
+    font: bold 50px Arial, Helvitica, sans-serif;
+    text-align: center;
+
+}
+#download {
+    display: inline-block;
+    color: white;
+    font: bold 30px Arial, Helvitica, sans-serif;
+    background-color: rgb(3, 252, 102);
+    cursor: pointer;
+    border: none;
+    height: 70px;
+    width: 300px;
+    transition-duration: 2s;
+    margin-Top: 50px;
+    padding: 4px;
+    margin-Left: 20px;
+}
+#download a {
+    text-decoration: none;
+}
+#download:hover{
+    color: black;
+    background-color: rgb(133, 248, 135);
+}
+#download-choices{
+    margin-Top: 500px;
+    background-color: white;
+    width: 900px;
+    height: 500px;
+    border: none;
+    margin-Left: 30px;
+}
+#download-choices a {
+    text-decoration: none;
+    float: right;
+    margin-Right: 30px;
+    font: bold 24px Arial, Helvitica, sans-serif;
+    padding: 20px;
+}
+#back-to-top {
+    display: inline-block;
+    cursor: pointer;
+    background-color: rgba(92, 235, 45, 1);
+    border: none;
+    height: 30px;
+    width: 90px;
+    margin-Top: 100px;
+    margin-Left: 900px;
+    margin-Bottom: 60px;
+}
+#back-to-top a {
+    text-decoration: none;
+}
+#mac_page {
+    color: black;
+    font: bold 15px Arial, Helvitica, sans-serif;
+}
+#windows_page{
+    color: black;
+    font: bold 15px Arial, Helvitica, sans-serif;
+}
+#linux_page{
+    color: black;
+    font: bold 15px Arial, Helvitica, sans-serif;
+}
+#mac_text{
+    position: absolute;
+    margin-Top: 200px;
+    margin-Left: 400px;
+}
+
+
